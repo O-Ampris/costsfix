@@ -170,12 +170,12 @@ class PluginCostsfixEntity extends CommonDBTM
         } else {
             $out .= "<tr class='tab_bg_1'>";
             $out .= "<td>" . __('Fixed cost') . "</td><td>";
-            $out .= "<input size='5' step='" . PLUGIN_COSTS_NUMBER_STEP . "' type='number' name='fixed_cost' value='" . $cost_config->fields['fixed_cost'] . "'>";
+            $out .= "<input size='5' step='" . PLUGIN_COSTSFIX_NUMBER_STEP . "' type='number' name='fixed_cost' value='" . $cost_config->fields['fixed_cost'] . "'>";
             $out .= "</td></tr>\n";
 
             $out .= "<tr class='tab_bg_1'>";
             $out .= "<td>" . __('Time cost') . "</td><td>";
-            $out .= "<input size='5' step='" . PLUGIN_COSTS_NUMBER_STEP . "' type='number' name='time_cost' value='" . $cost_config->fields['time_cost'] . "'>";
+            $out .= "<input size='5' step='" . PLUGIN_COSTSFIX_NUMBER_STEP . "' type='number' name='time_cost' value='" . $cost_config->fields['time_cost'] . "'>";
             $out .= "</td></tr>\n";
 
             $out .= "<tr class='tab_bg_1'>";

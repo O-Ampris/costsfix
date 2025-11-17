@@ -1,4 +1,4 @@
-# Costs for GLPI
+# Costs Fix for GLPI
 
 <img src="https://raw.githubusercontent.com/O-Ampris/costs-fix/refs/heads/main/assets/costsfix.png" alt="Costsfix Logo" height="250px" width="250px" class="js-lazy-loaded">
 
