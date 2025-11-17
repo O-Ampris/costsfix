@@ -1,5 +1,5 @@
-# Costs
-The cost plugin for GLPI
+# Costsfix
+The cost plugin for GLPI fixed
 
 ## 3.0.3 - 2024-02-05
 ## Bugfixes

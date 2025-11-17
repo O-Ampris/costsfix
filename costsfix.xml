@@ -2,7 +2,7 @@
    <name>Costsfix</name>
    <key>costsfix</key>
    <state>stable</state> <!-- stable | unstable | beta | alpha -->
-   <logo>https://raw.githubusercontent.com/ticgal/costs/multimedia/costs.png</logo>
+   <logo>https://raw.githubusercontent.com/O-Ampris/costs-fix/refs/heads/main/assets/costsfix.png</logo>
    <description>
       <short>
 		<en>Automatic costs generation for GLPI</en>

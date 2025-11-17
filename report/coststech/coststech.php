@@ -5,7 +5,7 @@ $DBCONNECTION_REQUIRED = 0;
 
 include("../../../../inc/includes.php");
 
-$report = new PluginReportsAutoReport(__('CostsfixTech'));
+$report = new PluginReportsAutoReport(__('CostsTech'));
 //Filtro fecha
 new PluginReportsDateIntervalCriteria(
     $report,

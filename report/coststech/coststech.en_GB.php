@@ -1,3 +1,3 @@
 <?php
 
-$LANG['plugin_costsfix']['costsfixtech'] = "Costsfix Tech";
+$LANG['plugin_costsfix']['coststech'] = "Costs Tech";
