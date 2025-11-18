@@ -182,7 +182,7 @@ class PluginCostsfixConfig extends CommonDBTM
             ) ENGINE=InnoDB DEFAULT CHARSET={$default_charset}
             COLLATE={$default_collation} ROW_FORMAT=DYNAMIC;";
 
-            $DB->query($query) or die($DB->error());
+            $DB->doQuery($query) or die($DB->error());
             $config->add([
                 'id' => 1,
                 'taskdescription' => 0,

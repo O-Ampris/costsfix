@@ -263,7 +263,7 @@ class PluginCostsfixEntity extends CommonDBTM
                 KEY entities_id (entities_id)
             ) ENGINE=InnoDB DEFAULT CHARSET={$default_charset}
             COLLATE={$default_collation} ROW_FORMAT=DYNAMIC;";
-            $DB->query($query) or die($DB->error());
+            $DB->doQuery($query) or die($DB->error());
         } else {
             if (!$DB->fieldExists($table, 'auto_cost')) {
                 $migration->displayMessage("Upgrading $table");
